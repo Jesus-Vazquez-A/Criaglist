@@ -12,9 +12,9 @@ We tested various ML models such as linear regression such as XGBoost, the first
 
 Separating the data into training, test and validation in the three data groups obtained very good metrics, in addition to applying methods to prevent excessive overfitting, such as deactivating a certain percentage of neurons in order to search for several alternative patterns and applying a significantly lower learning rate.
 
-RMSE Train: 3505.004
-RMSE Test:  3690.414
-RMSE Val:   3690.170
+* RMSE Train: 3505.004
+* RMSE Test:  3690.414
+* RMSE Val:   3690.170
 
 
 Finally we use this model to use it in a Streamlit application so that several users can use it in real time.
